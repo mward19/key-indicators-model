@@ -15,7 +15,7 @@ These key indicators are used as a metric of success by the missionary departmen
 
 A mathematical model that can simulate the impacts of these leadership decisions, prior to their enactment, would be invaluable in avoiding pitfalls and analyzing opportunities for growth. Indeed, the conversion funnel that the missionaries' key indicators represent is similar to those of other organziations including sales funnels, a population's conversion to a particular political or other philosophy, and (similar to both the benevolent and malevolent memetic means present in each of these examples) actual virues.
 
-For this reason a modified version of the prototypical SIR model was used. Unlike the SIR model, however, the model develped here allows for individuals to progress forwards and backwards through the various key indicators. We believe that this is a more realistic model not only for the missionaries but also various other phenomena such as the ones mentioned above.
+For this reason a modified version of the prototypical SIR model was used. Unlike the SIR model, however, the model develped here allows for individuals to progress forwards and backwards through the various key indicators. We believe that this is a more realistic model not only for the missionaries but also various other phenomena such as the ones mentioned above. Ultimately our goal is two-fold, to model missionary key indicators, and thus church membership, over time. 
 
 We are unaware of any previous efforts to model the missionaries' key indicators.
 
@@ -37,3 +37,25 @@ This model is a slight adaptation of the prototypical SIR model which typically 
 
 
 
+<<<<<<< Updated upstream
+=======
+![Model2](60YearsinColumbia.png)
+
+The same model used to predict the number of individuals in each key indicator state for the whole of Columbia. The model was initialized with the same assumptions except for changing the total population to 52,000,000, the approximate population of Columbia.
+
+When projecting for the next 60 years, but this time for all of Columbia, the model again seems to produce realistic estimates considering that in 1967 church membership in Columbia was approximately 3000 and ~ 50 years later in 2019 it was about 200,000. As seen above, this is approximately what the same model used to estimate local mission dynamics would have predicted. Only another 50 years of time will tell if the model will accurately predict the next 100 years in Columbia. 
+
+![Model2](150YearsColumbia.png)
+
+When trying to fit the model to real world data, however, some of the paramaters, which are intended to always be positive became negative. With the model no longer alegebraically representing anecdotal intution it was able
+
+# Results
+
+
+
+# Analysis and Conclusion
+
+We believe that the adapated SIR model presented here is a reasonable choice for modeling church population but perhaps an unreasonable choice for modeling missionary key indicators. Generally, we failed to accurately model the real world key indicator data that is available to us, particularly 'New People'. The data does not exhibit some of the behavior neccesary for the assumptions that the SIR model is based on, namely that individuals move from one key indicator to the next at a rate proprotional to their respective populations. The key indicators do not generally exhibit this behavior, namely with the population of those attending sacrament not increasing at a rate propotional to the population of new people.
+
+We did, however, model church membership in a local area fairly accurately. Just as with virus modeling, and thus from an SIR perspective, this makes sense as we would expect a prosyletyzing church population to grow at a rate proportional to the number of members. Given the accuary of the model while predicting church membership, and the original SIR model's ability to predict the evolution of a system, this or a similar model may be capable of predicting the plateau of church membership.
+>>>>>>> Stashed changes
